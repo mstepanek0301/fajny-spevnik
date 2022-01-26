@@ -1,0 +1,55 @@
+Die Ableitung vom Sinus ~ DorFuchs
+
+E|-15\-|-7-7-7-5---|-----------|
+H|-----|---------8-|-----------|
+G|-----|-----------|-7---------|
+D|-----|-----------|---7-7-7-7-|
+A|-----|-----------|-----------|
+E|-----|-----------|-----------|
+
+@refren
+[G]Die Ableitung vom [D]Sinus ist der [Em]Kosinus [C]
+Und die [G]Ableitung vom [D]Kosinus ist [Em]minus Si[C]nus
+Und die [G]Ableitung [D]davon ist dann [Em]minus der Ko[C]sinus
+Und [G]davon ist die [D]Ableitung der [G]Sinus
+(2x)
+
+Wenn wir uns die Sinuskurve mal genau ansehn
+Dann können wir einfach durch drauf schauen verstehn
+Was die Ableitung ist, also schauen wir uns das an
+Der Sinus fängt ja hier bei 0 erstmal an
+
+Und steigt dann in einem 45-Grad-Winkel an
+Weshalb wir an der Stelle 0 hier Anstieg 1 haben
+Und danach nimmt die Steigung langsam ab
+Bis ich bei Pi Halbe einen Hochpunkt hab
+
+Wo die Steigung an dem Punkt selbst 0 beträgt
+Und danach sieht man ja, dass es nach unten geht
+Und die steilste Stelle ist genau bei Pi
+Mit Anstieg -1, denn wenn man genau hinsieht
+
+Ist hier ne Symmetrie zu den 45 Grad
+Die ich am Anfang nach oben und jetzt nach unten hab
+Und dann flacht das wieder ab, bis ich bei 3 Halbe Pi
+Einen Tiefpunkt erreiche und dann ist 0 der Anstieg
+
+Und dann geht es nach oben bis ich die x-Achse erreiche
+Und ab diesem Punkt wird es wie am Anfang das Gleiche:
+Anstieg 1 und dann 0 und -1 und so weiter
+Das geht dann ja periodisch immer weiter
+
+Und die Ableitung vom Sinus ist jetzt jene Funktion
+Die diese Werte annimmt und vielleicht kennst du die ja schon
+Das ist der Kosinus, wodurch du weißt
+Warum es in diesem Lied hier heißt:
+
+@refren
+
+[Em7]Und jetzt können [Dm7]wir nicht nur differenzier[Cmaj7]en, sondern auch [D#maj7]inte[F7]grieren
+
+Ne [A#]Stammfunktion vom [F]Kosinus ist [Gm]Sinus [D#]
+Und ne [A#]Stammfunktion vom [F]Sinus ist [Gm]minus Kosi[D#]nus
+Und ne [A#]Stammfunktion [F]davon ist dann [Gm]minus der Si[D#]nus
+Und [A#]davon ist ne [F]Stammfunktion der [A#]Kosinus
+(2x)
