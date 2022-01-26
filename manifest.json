@@ -3,19 +3,18 @@
   "name": "Fajný spevník",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "/fajny-spevnik/img/icon-192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable any"
     },
     {
-      "src": "icon-512.png",
+      "src": "/fajny-spevnik/img/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": "/fajny-spevnik/",
-  "scope": "/fajny-spevnik/",
   "display": "standalone",
   "theme_color": "#fff",
   "background_color": "#fff"

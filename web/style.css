@@ -60,6 +60,7 @@ input {
 input::placeholder {
   font-weight: 400;
   color: inherit;
+  opacity: 100%;
 }
 
 input:focus {
