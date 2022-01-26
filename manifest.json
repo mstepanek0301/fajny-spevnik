@@ -5,7 +5,8 @@
     {
       "src": "icon-192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "maskable any"
     },
     {
       "src": "icon-512.png",
@@ -13,7 +14,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/fajny-spevnik/",
+  "scope": "/fajny-spevnik/",
   "display": "standalone",
   "theme_color": "#fff",
   "background_color": "#fff"
