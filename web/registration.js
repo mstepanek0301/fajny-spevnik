@@ -3,6 +3,6 @@ if ("serviceWorker" in navigator) {
     navigator.serviceWorker
       .register("/fajny-spevnik/service-worker.js")
       .then((result) => console.log("Service worker registered."))
-      .catch((error) => console.log("Service worker not registered"));
+      .catch((error) => console.log("Service worker not registered", error));
   });
 }

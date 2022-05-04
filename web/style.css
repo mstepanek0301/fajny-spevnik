@@ -104,7 +104,7 @@ input:focus {
 }
 
 .song-li {
-  max-width: min(90vw, 300px);
+  max-width: min(90vw, 250px);
 }
 
 .song-li h1 {

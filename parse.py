@@ -91,8 +91,8 @@ def src_to_html(src):
                     open_ital = True
 
             elif char == '"':
-                if src[i - 1].isspace(): block_content += '“'
-                else: block_content += '”'
+                if src[i - 1].isspace(): block_content += '„'
+                else: block_content += '“'
 
             elif char == "'": block_content += '’'
 
