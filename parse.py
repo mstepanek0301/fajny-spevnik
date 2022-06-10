@@ -1,3 +1,5 @@
+from utils import prettify
+
 scale = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'B', 'H']
 full_scale = {
     'C': 0, 'C#': 1, 'Db': 1, 'D': 2, 'D#': 3, 'Eb': 3, 'E': 4, 'F': 5, 'F#': 6, 'Gb': 6, 'G': 7, 'G#': 8, 'Ab': 9, 'A': 9, 'A#': 10, 'B': 10, 'H': 11
@@ -33,10 +35,10 @@ def src_to_html(src):
             elif open_at:
                 open_at = False
             elif open_block:
+                block_content = prettify(block_content)
                 block_content += '</div>'
                 open_block = False
                 if block_name:
-                    block_content = block_content.replace('...', '…')
                     if not block_name in mem_blocks:
                         mem_blocks[block_name] = block_content
                     block_content = mem_blocks[block_name]

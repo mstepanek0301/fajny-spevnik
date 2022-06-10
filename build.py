@@ -56,7 +56,7 @@ with open('web/templates/service-worker.js') as src, open(
     'service-worker.js', 'w'
 ) as out:
     out.write(src.read().replace(
-        '%VERSION%', f'{randrange(1000000)}'
+        '%VERSION%', str(randrange(1000000))
     ).replace(
         '/*ASSETS*/', ','.join([f'"{asset}"' for asset in assets])
     ))
