@@ -26,7 +26,7 @@ for path in Path('.').glob('**/source.txt'):
         src_text = src.read()
         i = src_text.index('\n')
         head, body = src_text[:i], src_text[i + 1:]
-        title, artist = [prettify(item.strip()) for item in  head.split('~')]
+        title, artist = [prettify(item.strip()) for item in head.split('~')]
 
         html, plaintext = src_to_html(body)
         out.write(template_song.replace(
@@ -42,7 +42,7 @@ for path in Path('.').glob('**/source.txt'):
         ), title, artist))
 
 song_list = [
-    f'<a href="songs/{normalize(artist)}--{normalize(title)}/" class="block song-li" data-plaintext="{plaintext}"><h1>{title}</h1><div class="subheading">{artist}</div></a>'
+    f'<a href="songs/{normalize(artist)}/{normalize(title)}/" class="block song-li" data-plaintext="{plaintext}"><h1>{title}</h1><div class="subheading">{artist}</div></a>'
     for plaintext, title, artist in sorted(songs)
 ]
 
