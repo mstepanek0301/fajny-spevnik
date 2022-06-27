@@ -12,7 +12,7 @@ Vraj do 2010, ten sľub asi trochu smrdel.
 Po uliciach mesta sa klebetí,
 že isto budú mať ten obchvat deti našich detí.
 
-@chorus
+@refren
 V duchu [Em]obchádzam už [D]Prešov,
 už nám [C]závidia aj v Sabinove budúce obchvaty nové.
 Obchádzam už Prešov,
