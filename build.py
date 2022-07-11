@@ -13,9 +13,12 @@ songs = []
 assets = [
     '/fajny-spevnik/',
     'https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200..900;1,200..900',
-    'https://fonts.gstatic.com/s/worksans/v13/QGYsz_wNahGAdqQ43Rh_fKDp.woff2', 'https://fonts.gstatic.com/s/worksans/v13/QGYsz_wNahGAdqQ43Rh_cqDpp_k.woff2',
-    'https://fonts.gstatic.com/s/worksans/v13/QGYqz_wNahGAdqQ43Rh_eZDrv_0.woff2',
-    'https://fonts.gstatic.com/s/worksans/v13/QGYqz_wNahGAdqQ43Rh_eZDlv_1w4A.woff2'
+    'https://fonts.googleapis.com/css2?family=Work+Sans:wght@200..900&text=%E2%86%90',
+    'https://fonts.gstatic.com/s/worksans/v17/QGYqz_wNahGAdqQ43Rh_eZDkv_1i4_D2E4A.woff2',
+    'https://fonts.gstatic.com/s/worksans/v17/QGYqz_wNahGAdqQ43Rh_eZDrv_1i4_D2.woff2',
+    'https://fonts.gstatic.com/s/worksans/v17/QGYsz_wNahGAdqQ43Rh_cqDptfpA4cD3.woff2',
+    'https://fonts.gstatic.com/s/worksans/v17/QGYsz_wNahGAdqQ43Rh_fKDptfpA4Q.woff2',
+    'https://fonts.gstatic.com/l/font?kit=QGYsz_wNahGAdqQ43RhPfqrul_h64hpwuw&skey=a19f1b3d756da88c&v=v17'
 ]
 
 for path in Path('.').glob('**/source.txt'):
