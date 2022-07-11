@@ -5,7 +5,9 @@ Spevník so sústredkovými pesničkami. Otvoriť si ho môžete na [bit.ly/fajn
 ## Features
 
 **Funguje aj offline** - keď raz stránku otvoríte, automaticky sa všetky pesničky uložia.
+
 **Na mobil si ho môžete nainštalovať ako aplikáciu** - keď otvoríte stránku, malo by sa tam zobraziť že *add to home screen*.
+
 **Transpozícia** - v pesničkách sú vpravo dole šípky, ktorými môžete prepínať stupnicu, aby tie akordy pekne vychádzali.
 
 ## Pridávanie pesničiek
@@ -52,7 +54,7 @@ Môžete používať aj taby. Píšu sa tak, ako napríklad aj na Ultimate Guita
 
 **Italic:** Keď niečo obalíte do podčiarkovníkov, bude to v italicu, `napríklad _takto_.`
 
-**Krajšie znaky:** Obyčajné úvodzovky `""` sa automaticky nahradia `„“` a apostrofy `'` sa nahradia `’`. Pomlčky medzi medzerami ` - ` sa nahradia dlhými ` – ` a tri bodky 
+**Automaticky krajšie znaky:** Obyčajné úvodzovky `""` sa automaticky nahradia `„“` a apostrofy `'` sa nahradia `’`. Pomlčky medzi medzerami ` - ` sa nahradia dlhými ` – ` a tri bodky `...` znakom troch bodiek `…`.
 
 **Escape znaky:** Keď potrebujete napísať do textu nejaký znak, ktorý chce robiť v kóde niečo iné (napr. `@`, `_`, a podobne), môžete pred neho dať backslash, teda napríklad `\_` vám napíše `_` a `\\` napíše `\`.
 
