@@ -1,3 +1,7 @@
+
+#cd C:\Users\skalo\OneDrive\Documents\GitHub\fajny-spevnik\
+#python.exe .\newsong.py
+
 from utils import normalize
 import os
 
