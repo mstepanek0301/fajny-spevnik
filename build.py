@@ -4,9 +4,9 @@ from random import randrange
 from utils import normalize, prettify
 
 template_song, template_home = '', ''
-with open('web/templates/song.html') as file:
+with open('web/templates/song.html', encoding = 'utf-8') as file:
     template_song = file.read()
-with open('web/templates/home.html') as file:
+with open('web/templates/home.html', encoding = 'utf-8') as file:
     template_home = file.read()
 
 songs = []
@@ -55,8 +55,8 @@ with open('index.html', 'w', encoding = 'utf-8') as file:
 for path in Path('.').glob('web/*.*'):
     assets.append(f'/fajny-spevnik/{path}')
 
-with open('web/templates/service-worker.js') as src, open(
-    'service-worker.js', 'w'
+with open('web/templates/service-worker.js', encoding = 'utf-8') as src, open(
+    'service-worker.js', 'w', encoding = 'utf-8'
 ) as out:
     out.write(src.read().replace(
         '%VERSION%', str(randrange(1000000))
